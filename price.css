@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans+Condensed:wght@300&family=Poppins:ital,wght@1,200&display=swap');
+html{
+  background-color: #d6d0d0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.seafood, .chicken-flex{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.menu-header{
+display: flex;
+justify-content: space-around;
+}
+.menu-header1{
+  color: #E1651F;
+  font-family: Roboto;
+  font-size: 24px;
+}
+.menu-header2{
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu-header2 p{
+  padding: 20px 40px;
+  font-family: Poppins;
+  font-weight: bold;
+  margin-right: 10px;
+  background-color: #A6CE39;
+  border-radius: 10px 10px 0 0;
+  color: white;
+}
+.menu hr{
+  width:80%;
+  height:4px;
+  background-color:#A6CE39;
+  border:none;
+  position: relative;
+  top:-24px;
+
+}
+.menu h2{
+  /* text-align: center; */
+  font-size: 36px;
+  color: #A6CE39;
+  font-family: Poppins;
+  border-bottom: 2px solid #F89B1C;
+  border-width: 5px;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+}
+.menu-food{
+  background-color: #ffffff;
+  flex: 1 1 5rem;
+  /* flex child so as to align buttons */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 20px 20px 0;
+  padding: 20px;
+  box-shadow: 0px 4px 4px rgba(0,0,0, 0.08);
+}
+.menu-food p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+.menu h3{
+ color: #A6CE39;
+ font-size: 24px;
+ font-family: Open Sans;
+ line-height: 33px;;
+}
+button{
+  color: white;
+  background-color: #F89B1C;
+  border-radius: 5px;
+  padding: 15px 30px;
+  border: none;
+  /* flex child so as to align buttons */
+  margin-top: auto;
+}
+.customer{
+background-image: url("/images/olayinka-babalola-r01ZopTiEV8-unsplash.jpg");
+background-size: cover;
+background-position: center;
+}
+.customer i{
+  color: #E1651F;
+}
+.customer-header{
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  font-size: 24px;
+}
+.customer-header hr{
+ width:10%;
+ height: 3px;
+ background-color: #E1651F;
+ border: none;
+
+}
+.customer-flex{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-right:1%;
+  padding: 30px;
+  text-align: center; 
+}
+.card .card-text{
+ font-family: Poppins;
+ font-size: 16px;
+}
+.card .card-header{
+  font-family: Oleo Script Swash Caps;
+}
